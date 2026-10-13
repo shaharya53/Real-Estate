@@ -1,0 +1,52 @@
+# ============================
+# Real Estate Web Application
+# Requirements File
+# ============================
+
+# --- Backend Dependencies (Node.js / Express) ---
+express
+mongoose
+cors
+dotenv
+nodemailer
+body-parser
+jsonwebtoken
+# --- Frontend Dependencies (React) ---
+react
+react-dom
+react-router-dom
+axios
+bootstrap
+react-bootstrap
+tailwindcss
+framer-motion
+
+# ============================
+# How to Run the Project
+# ============================
+
+# 1. Install Node.js (>= v18)
+#    https://nodejs.org/
+
+
+
+# 2. Backend Setup
+#    cd backend
+#    npm install
+#    npm start
+
+# 3. Frontend Setup
+#    cd frontend
+#    npm install
+#    npm start
+
+# 4. Open in browser:
+#    http://localhost:3000  (Frontend)
+#    http://localhost:5000  (Backend API)
+
+# ============================
+# Environment Variables (.env in backend/)
+# ============================
+# MONGO_URI = your_mongodb_connection_string
+# EMAIL_USER = your_email@example.com
+# EMAIL_PASS = your_email_password
